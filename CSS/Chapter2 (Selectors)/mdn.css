@@ -1,0 +1,5 @@
+a[href*="youtube.com"] {
+    font-size: 2em;
+    text-decoration: none;
+    color: red;
+}

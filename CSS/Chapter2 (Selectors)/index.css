@@ -1,0 +1,130 @@
+*{
+    font-family: 'Courier New';
+    margin: 0;
+    padding: 0;
+    border-radius: 1.5vh;
+    padding: .55vh;
+}
+*::selection{
+    background-color: #000;
+    color: #fff;
+}
+h1,h3{
+    color: #f52936;
+}
+#signup{
+    background-color: #f52936;
+    color: #fff;
+
+
+}
+.upvotes,.upvotes+button{
+    color: #000;
+    background-color: #F0F0F0;
+}
+#myId p{
+    color: green;
+}
+.post a{
+    background-color: #ffff00;
+    color: blue;
+    text-decoration: none;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    
+}
+div>input{
+    background-color: lightcyan;
+    border: none;
+    box-shadow: 0 0 2px 2px rgb(255, 255, 136);
+}
+
+input[type="text"]{
+    color: black;
+    font-weight: 545;
+    
+}
+input[type="password"]{
+    color: rgb(255, 98, 0);
+    font-weight: 545;
+}
+
+.postarea:nth-of-type(2n-1){
+    background-color: #cffcce3c;
+}
+.postarea:nth-of-type(2n){
+    background-color: #cffcce3c;
+}
+.postarea{
+    margin-bottom: 2vh;
+    border: .5vh solid;
+    align-content: center;
+}
+
+.title::first-letter{
+    color: #000;
+}
+
+button{
+    border: 1px solid red;
+}
+.upvotes:hover, .upvotes+button:hover{
+    background-color: rgba(111, 250, 255, 0.639);
+   border-color: rgb(36, 43, 255);
+}
+
+
+
+
+
+header{
+    background-color: lightblue;
+
+}
+header nav ul{
+display: flex;
+flex-direction: row;
+list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    padding: 1vh;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+#road_light{
+    height: 50vh;
+    /* padding: 2px; */
+    background-color: #000;
+}
+.signal{
+    background-color: #fff;
+    height: 3vh;
+    width: 13vh;
+    border: 2px solid rgb(0, 0, 0);
+    /* margin: 2vh; */
+}
+.red ,.green, .yellow{
+    height: 9vh;
+    width: 9vh;
+    /* background-color: #fff; */
+    border-radius: 50%;
+    border: 3px solid black;
+    margin: 1.5vh;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.sprt{
+    background: white;
+    width: 15vh;
+    height: 40vh;
+
+}
