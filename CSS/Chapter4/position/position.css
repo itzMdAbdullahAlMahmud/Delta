@@ -1,0 +1,14 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #0f0;
+    margin: 2vh;
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
+}
+.relative{
+    position: relative;
+    left: 100px;
+}

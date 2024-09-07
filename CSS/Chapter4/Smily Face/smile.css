@@ -1,0 +1,70 @@
+*{
+    align-content: center;
+    margin: auto;
+}
+.bcgrnd{
+    /* background-color: #000; */
+    height: 400px;
+    width: 400px;
+
+}
+.circle{
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0 6px 8px rgb(165, 148, 126);
+
+}
+.eye1, .eye2{
+    background-color: #000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 60px;
+}
+.beye{
+position: relative;
+bottom: 20px;
+left: 8px;
+}
+.mouth{
+    height: 45px;
+    width: 60px;
+    background-color: var(--skinclr);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+#fullM{
+position: relative;
+left: 88px;
+bottom: 25px;
+display: inline-block;
+}
+#mouth1{
+    
+    position: relative;
+    left: 1.5%;
+    border-radius: 0 0 0 100%;
+}
+#mouth2{
+    
+    border-radius: 0 0 100% 0;
+    position: relative;
+    right: 1.5%;
+}
+.nose{
+    background-color: var(--skinclr);
+    height: 70px;
+    position: relative;
+    bottom: 60px;
+    border-radius: 100% 100% 50% 50%;
+    width: 30px;
+}
+:root{
+    --skinclr : orangered ;
+}

@@ -1,0 +1,19 @@
+.card1, .card2{
+    height: auto;
+    display: inline-block;
+    margin-left: 6vh;
+    border: 2px solid black;
+    border-radius: 2.5vh;
+    text-align: center;
+    box-shadow: 0px 4px 8px #000000;
+    transition: .5s;
+}
+.card1:hover, .card2:hover{
+    box-shadow: 0px 8px 13px #000000;
+    /* transform: scale(6px); */
+
+}
+img{
+    height: 150px;
+    border-radius: 2vh 2vh 0 0;
+}

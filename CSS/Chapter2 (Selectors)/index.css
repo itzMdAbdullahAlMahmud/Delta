@@ -12,16 +12,28 @@
 h1,h3{
     color: #f52936;
 }
-#signup{
-    background-color: #f52936;
-    color: #fff;
 
-
-}
 .upvotes,.upvotes+button{
     color: #000;
-    background-color: #F0F0F0;
+    background-color: #15ff4c;
+        border: 1px solid red;
 }
+
+
+button:hover, .upvotes:hover,
+.upvotes+button:hover {
+    /* background-color: rgba(111, 250, 255, 0.639); */
+    border-color: #ff000064;
+    background-color: #15ff4c64;
+    transform: scale(1.1);
+}
+.upvotes:active,
+.upvotes+button:active{
+    border-color: #ffd50064;
+    background-color: #15f7ff64;
+
+}
+
 #myId p{
     color: green;
 }
@@ -37,6 +49,10 @@ div>input{
     background-color: lightcyan;
     border: none;
     box-shadow: 0 0 2px 2px rgb(255, 255, 136);
+    margin: 2vh;
+}
+div>input:hover{
+    transform: scale(1.1);
 }
 
 input[type="text"]{
@@ -65,26 +81,45 @@ input[type="password"]{
     color: #000;
 }
 
-button{
-    border: 1px solid red;
-}
-.upvotes:hover, .upvotes+button:hover{
-    background-color: rgba(111, 250, 255, 0.639);
-   border-color: rgb(36, 43, 255);
-}
 
 
 
-
-
-header{
-    background-color: lightblue;
-
-}
 header nav ul{
 display: flex;
 flex-direction: row;
 list-style-type: none;
+
+}
+.fLnHeader{
+    /* background-color: #000 !important;  */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form{
+    display: inline-block;
+    /* flex: 1, 1, auto; */
+    /* flex: auto; */
+}
+
+.logsign{
+    display: inline-block;
+    /* flex: 1, 1, auto; */
+    /* flex: auto; */
+}
+.title{
+    /* flex: 1, 1, auto; */
+}
+header{
+    position: sticky;
+    background-color: lightblue;
+    top: 0px;
+    margin-right: 10px;
+    width: 102%;
+    height: 20vh;
+}
+h1{
+    display: inline-block;
 }
 header nav ul li a{
     text-decoration: none;

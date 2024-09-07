@@ -1,0 +1,15 @@
+.div1{
+    /* margin: 20vh; */
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    rotate: 45deg;
+    background-color: blue;
+    transition: ease-in-out 2s 0.3s;
+    border-radius: 0% 100% 100% 100%;
+
+
+}
+.div1:hover{
+    transform: translate(100%, 100%);
+}
